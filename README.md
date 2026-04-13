@@ -19,9 +19,8 @@ This project implements a Traffic Light Controller using a Moore Finite State Ma
 - Verilog HDL
 - EDA Playground
 
-## 🔗 Simulation Link
-[Paste your EDA Playground link here]
-
+## Simulation Link
+https://www.edaplayground.com/x/WTmJ
 ## 📁 Files
 - traffic_light.v
 - tb.v
