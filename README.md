@@ -1,13 +1,12 @@
-# Traffic Light Controller using FSM (Verilog)
+# 🚦 Traffic Light Controller using FSM (Verilog HDL)
 
-## 📌 Project Overview
-This project implements a Traffic Light Controller using a Moore Finite State Machine (FSM).
+This project implements a Traffic Light Controller using a Moore Finite State Machine (FSM) in Verilog HDL. It controls traffic flow at an intersection using timed state transitions.
 
-## ⚙️ Features
+## 📌 Features
 - 4-state FSM (S0–S3)
 - NS & EW traffic control
 - Counter-based timing
-- Simulation using EDA Playground
+- Moore Machine design
 
 ## 🧠 FSM States
 - S0: NS Green, EW Red
@@ -19,10 +18,19 @@ This project implements a Traffic Light Controller using a Moore Finite State Ma
 - Verilog HDL
 - EDA Playground
 
-## Simulation Link
+## 🔗 Simulation Link
 https://www.edaplayground.com/x/WTmJ
+
+## 📊 Simulation Output
+The waveform verifies correct state transitions:
+S0 → S1 → S2 → S3 → repeat
+
+NS and EW signals operate correctly with proper timing.
+
+
+![Waveform](waveform.png)
+
 ## 📁 Files
 - traffic_light.v
 - tb.v
-- Report PDF
-- Waveform Screenshot
+- Project Report (PDF)
